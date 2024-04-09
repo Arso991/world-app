@@ -1,0 +1,30 @@
+.countries{
+    padding: 0 40px ;
+    margin: 25px 0 ;
+
+    .countries__filter{
+        padding: 10px 40px;
+        border-radius: 10px;
+        background-color: $blue-2;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        
+        li{
+            color: $white-1;
+            font-family: $font-B;
+        }
+    }
+    
+    .countries__list{
+        margin: 25px 0 ;
+    
+        ul{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+

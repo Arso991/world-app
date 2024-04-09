@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "font-Regular";
+    src: url("../assets/fonts/Ubuntu-Regular.ttf");
+    font-family: "font-Bold";
+    src: url("../assets/fonts/Ubuntu-Bold.ttf");
+    font-family: "font-Medium";
+    src: url("../assets/fonts/Ubuntu-Medium.ttf");
+}
+
+$font-1 : "font-Regular", sans-serif;
+$font-B : "font-Bold", sans-serif;
+
+$white-1 : #ffffff;
+$white-2 : #fbfbfb;
+$blue-1 : #53edff;
+$blue-2 : #0d6986;
+//$white-1 : #efffe7;
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    z-index: 0;
+    font-family: $font-1;
+    font-size: 14px;
+    position: relative;
+}
+
+body{
+    background-color: $white-2;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
